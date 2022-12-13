@@ -174,7 +174,7 @@ let Logger = (function()
                 tabDiv = document.createElement("div");
                 tabDiv.id = TAB_DIV;
                 tabDiv.appendChild(document.createTextNode("LOG"));
-                tabDiv.setAttribute("style", "width:40px;" +
+                tabDiv.setAttribute("style", "width:0px;" +
                                              "box-sizing:border-box;" +
                                              "overflow:hidden;" +
                                              "font:bold 10px verdana,helvetica,sans-serif;" +
