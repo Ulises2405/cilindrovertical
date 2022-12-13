@@ -160,7 +160,7 @@ let Logger = (function()
                 // container
                 containerDiv = document.createElement("div");
                 containerDiv.id = CONTAINER_DIV;
-                containerDiv.setAttribute("style", "width:100%;" +
+                containerDiv.setAttribute("style", "width:0%;" +
                                                    "margin:0;" +
                                                    "padding:0;" +
                                                    "text-align:left;" +
