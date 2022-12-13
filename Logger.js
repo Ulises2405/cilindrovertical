@@ -172,25 +172,25 @@ let Logger = (function()
 
                 // tab
                 tabDiv = document.createElement("div");
-                tabDiv.id = TAB_DIV;
-                tabDiv.appendChild(document.createTextNode("LOG"));
-                tabDiv.setAttribute("style", "width:0px;" +
-                                             "box-sizing:border-box;" +
-                                             "overflow:hidden;" +
-                                             "font:bold 10px verdana,helvetica,sans-serif;" +
-                                             "line-height:" + (tabHeight-1) + "px;" +  /* subtract top-border */
-                                             "color:#fff;" +
-                                             "position:absolute;" +
-                                             "left:20px;" +
-                                             "top:" + -tabHeight + "px;" +
-                                             "margin:0; padding:0;" +
-                                             "text-align:center;" +
-                                             "border:1px solid #aaa;" +
-                                             "border-bottom:none;" +
-                                             /*"background:#333;" + */
-                                             "background:rgba(0,0,0,0.8);" +
-                                             "border-top-right-radius:8px;" +
-                                             "border-top-left-radius:8px;");
+                // tabDiv.id = TAB_DIV;
+                // tabDiv.appendChild(document.createTextNode("LOG"));
+                // tabDiv.setAttribute("style", "width:40px;" +
+                //                              "box-sizing:border-box;" +
+                //                              "overflow:hidden;" +
+                //                              "font:bold 10px verdana,helvetica,sans-serif;" +
+                //                              "line-height:" + (tabHeight-1) + "px;" +  /* subtract top-border */
+                //                              "color:#fff;" +
+                //                              "position:absolute;" +
+                //                              "left:20px;" +
+                //                              "top:" + -tabHeight + "px;" +
+                //                              "margin:0; padding:0;" +
+                //                              "text-align:center;" +
+                //                              "border:1px solid #aaa;" +
+                //                              "border-bottom:none;" +
+                //                              /*"background:#333;" + */
+                //                              "background:rgba(0,0,0,0.8);" +
+                //                              "border-top-right-radius:8px;" +
+                //                              "border-top-left-radius:8px;");
                 // add mouse event handlers
                 tabDiv.onmouseover = function()
                 {
